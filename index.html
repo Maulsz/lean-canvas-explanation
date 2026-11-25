@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Presentasi Lean Canvas & PRD — Lapangan Olahraga</title>
+  <meta name="description" content="Presentasi interaktif Lean Canvas dan PRD Platform Pencarian & Pemesanan Lapangan Olahraga — SMKIT Ibnul Qayyim Makassar, Angkatan 5, PPLG/RPL.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23c00000'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-dot" aria-hidden="true"></span>Lean Canvas <span class="amp">&amp;</span> PRD</div>
+      <div class="section-pill" id="sectionLabel">Pembuka</div>
+      <div class="counter" id="counter" aria-live="off">1 / 1</div>
+    </header>
+
+    <main class="stage" id="stage" aria-live="polite"></main>
+
+    <footer class="dock">
+      <div class="caption-row">
+        <div class="speaker" id="speaker">
+          <span class="avatar" id="speakerAvatar" aria-hidden="true"></span>
+          <span class="speaker-text"><strong id="speakerName"></strong><small id="speakerRole"></small></span>
+        </div>
+        <p class="caption" id="caption"></p>
+      </div>
+      <div class="controls">
+        <div class="btn-group">
+          <button class="icon-btn" id="prevBtn" type="button" aria-label="Sebelumnya (panah kiri)" title="Sebelumnya (←)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <button class="icon-btn primary" id="playBtn" type="button" aria-label="Putar" title="Putar / jeda (Spasi)">
+            <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor" stroke="none"/></svg>
+            <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>
+          </button>
+          <button class="icon-btn" id="nextBtn" type="button" aria-label="Berikutnya (panah kanan)" title="Berikutnya (→)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+
+        <div class="progress" id="progress" role="group" aria-label="Lompat ke bagian"></div>
+
+        <div class="btn-group">
+          <button class="icon-btn" id="muteBtn" type="button" aria-label="Matikan suara" aria-pressed="false" title="Suara (M)">
+            <svg class="i-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12"/></svg>
+            <svg class="i-muted" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M17 9l5 6M22 9l-5 6"/></svg>
+          </button>
+          <button class="icon-btn" id="ccBtn" type="button" aria-label="Teks narasi" aria-pressed="true" title="Teks narasi (C)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10.5 10.2a2.2 2.2 0 100 3.6M17 10.2a2.2 2.2 0 100 3.6"/></svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <div class="start" id="start">
+      <div class="start-card">
+        <p class="kicker">SMKIT Ibnul Qayyim Makassar · Angkatan 5 · PPLG/RPL</p>
+        <h1>Lean Canvas &amp; PRD</h1>
+        <p class="start-sub">Platform Pencarian &amp; Pemesanan Lapangan Olahraga</p>
+        <div class="start-actions">
+          <button class="btn primary" id="startPlay" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor" stroke="none"/></svg>
+            Mulai presentasi
+          </button>
+          <button class="btn ghost" id="startManual" type="button">Jelajahi sendiri</button>
+        </div>
+        <p class="start-hint">Presentasi bersuara oleh tim · ± 7 menit · Navigasi: ← → · Spasi untuk jeda</p>
+        <p class="start-docs">Dokumen asli:
+          <a href="documents/lean-canvas-v1.0.pdf" target="_blank" rel="noopener">Lean Canvas (PDF)</a> ·
+          <a href="documents/prd-v0.1.pdf" target="_blank" rel="noopener">PRD (PDF)</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <audio id="voice" preload="auto"></audio>
+
+  <noscript><p class="noscript">Halaman ini membutuhkan JavaScript.</p></noscript>
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
