@@ -53,10 +53,10 @@ window.EXPLAINER = {
       "speaker": "rizky",
       "kicker": "SMKIT Ibnul Qayyim Makassar · Angkatan 5 · PPLG/RPL",
       "title": "Cari lapangan olahraga terdekat, cukup dari satu website.",
-      "subtitle": "Presentasi Lean Canvas & PRD kepada Ustadz Izhar selaku Pembina",
+      "subtitle": "Presentasi Lean Canvas & PRD kepada Ustadz Izhar, Guru Mapel KIK (Kreativitas, Inovasi, dan Kewirausahaan)",
       "meta": ["Nama produk: segera hadir", "Lean Canvas v1.0 · 30/10/2026", "PRD v0.1"],
       "radar": true,
-      "narration": "Assalamualaikum warahmatullahi wabarakatuh. Yang kami hormati, Ustadz Izhar selaku pembina kami. Pernahkah kita ingin bermain futsal atau badminton, tapi bingung mencari lapangan yang dekat, jelas aturannya, dan bisa langsung dipesan? Dari masalah itulah ide startup kami lahir. Hari ini, kami dari angkatan kelima jurusan PPLG akan mempresentasikan Lean Canvas dan PRD kami."
+      "narration": "Assalamualaikum warahmatullahi wabarakatuh. Yang kami hormati, Ustadz Izhar, guru mata pelajaran Kreativitas, Inovasi, dan Kewirausahaan. Pernahkah kita ingin bermain futsal atau badminton, tapi bingung mencari lapangan yang dekat, jelas aturannya, dan bisa langsung dipesan? Dari masalah itulah ide startup kami lahir. Hari ini, kami dari angkatan kelima jurusan PPLG akan mempresentasikan Lean Canvas dan PRD kami."
     },
     {
       "id": "tim",

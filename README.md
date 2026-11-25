@@ -1,7 +1,7 @@
 # Presentasi Lean Canvas & PRD — Platform Pencarian & Pemesanan Lapangan Olahraga
 
 Halaman web interaktif berisi **presentasi tim** tentang **Lean Canvas v1.0** dan **PRD v0.1**
-startup platform pencarian & pemesanan lapangan olahraga kepada **Ustadz Izhar** selaku pembina.
+startup platform pencarian & pemesanan lapangan olahraga kepada **Ustadz Izhar**, guru mata pelajaran **KIK (Kreativitas, Inovasi, dan Kewirausahaan)**.
 Setiap bagian dibawakan oleh anggota tim sesuai perannya, dengan suara, label pembicara,
 dan caption. Gambar Lean Canvas asli ditampilkan dan kotak yang sedang dibahas disorot.
 Tampilannya mengikuti warna dokumen Lean Canvas (putih, hitam, dan merah `#C00000`).
@@ -115,7 +115,7 @@ Naskah di `assets/js/content.js` juga bisa dipakai sebagai **teks latihan** pres
 
 Semua isi diambil dari dokumen di folder `documents/`. Bagian **Evaluasi kami** dan
 **Evaluasi diri** adalah masukan tambahan, bukan isi dokumen asli. Bagian ini ditulis dari
-sudut pandang tim sebagai bahan diskusi dengan pembina.
+sudut pandang tim sebagai bahan diskusi dengan guru mapel KIK.
 
 ## Cara kerja singkat
 
@@ -206,6 +206,6 @@ Jika Lean Canvas direvisi, ekspor halaman PDF-nya menjadi PNG dan timpa
 | Content Creator | M. Nur Athallah Syahrir, Zaky Nur Afham |
 | Marketing | Dhimas Lanang Ragil Hidayah, Rayyan Elnazavi Parerung |
 
-Pembina: **Ustadz Izhar**.
+Guru mapel KIK (Kreativitas, Inovasi, dan Kewirausahaan): **Ustadz Izhar**.
 
 Template Lean Canvas pada dokumen asli diadaptasi dari *The Business Model Canvas* (CC BY-SA 3.0).
